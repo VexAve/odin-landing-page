@@ -99,3 +99,31 @@ header a {
 #random-info figcaption {
     width: 200px;
 }
+
+#thor-quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+#thor-quote blockquote {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+}
+
+#thor-quote p {
+    align-self: flex-end;
+    margin: 20px;
+}
+
+#thor-quote p:first-child {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#thor-quote p:last-child {
+    font-weight: bold;
+}
