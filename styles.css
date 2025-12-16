@@ -71,3 +71,31 @@ header a {
     border-radius: 10px;
     margin: 10px 0;
 }
+
+#random-info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+#random-info div {
+    display: flex;
+    justify-content: center;
+}
+
+#random-info figure {
+    margin: 0 50px 75px;
+}
+
+#random-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
+}
+
+#random-info figcaption {
+    width: 200px;
+}
