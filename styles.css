@@ -35,13 +35,12 @@ header a {
 
 #hero {
     display: flex;
-    justify-content: center;
-    padding: 40px;
+    justify-content: space-evenly;
+    padding: 50px 0;
 }
 
 #hero div {
     width: 500px;
-    margin-right: 50px;
 }
 
 #hero h1 {
@@ -58,5 +57,6 @@ header a {
 
 #hero img {
     width: 300px;
-    height: auto;
+    min-width: 0;
+    object-fit: contain;
 }
