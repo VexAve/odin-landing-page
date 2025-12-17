@@ -148,3 +148,9 @@ header a {
 #call-to-action button {
     border: 3px solid white
 }
+
+footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+}
